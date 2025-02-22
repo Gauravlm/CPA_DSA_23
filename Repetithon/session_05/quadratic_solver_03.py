@@ -12,7 +12,6 @@ if a== 0.0:
 if b**2 - (4 * a*c) < 0.0:
     print('This eq. does not have in real numbers')
     sys.exit()
-
 r1 = (-b + (b**2 - 4*a*c) ** 0.5) /(2*a)
 r2 = (-b -(b**2 - 4*a*c) ** 0.5) /(2*a)
 print(f'root1: {r1}, Root: {r2}')
